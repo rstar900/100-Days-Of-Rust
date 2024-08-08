@@ -1,0 +1,6 @@
+[package]
+name = "barbeque_skewers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
