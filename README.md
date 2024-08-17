@@ -56,7 +56,7 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #7        | [Merge Sorted Array](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-01/Day-07_Merge-Sorted-Array)                    | :white_check_mark:      |
 | Day #8        | [Letter Combinations Of A Phone Number](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-08_Letter-Combinations-Of-A-Phone-Number) | :white_check_mark:      |
 | Day #9        | [Trapping Rain Water](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-09_Trapping-Rain-Water)                   | :white_check_mark:      |
-| Day #10       | [Unique Binary Search Tree](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-10_Unique-Binary-Search-Trees)             | :white_large_square:      |
+| Day #10       | [Unique Binary Search Tree](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-10_Unique-Binary-Search-Trees)             | :white_check_mark:      |
 | Day #11       | [Restore IP Addresses](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-11_Restore-IP-Addresses)                  | :white_large_square:      |
 | Day #12       | [Mountains or Valleys](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-12_Mountains_And_Valleys)                  | :white_large_square:      |
 | Day #13       | [Need Help With Your Packing](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-13_Need-Help-With-Packing)           | :white_large_square:      |
