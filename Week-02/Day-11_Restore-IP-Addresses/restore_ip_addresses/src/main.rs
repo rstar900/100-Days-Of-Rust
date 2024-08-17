@@ -1,7 +1,7 @@
 use std::io;
 
 // Helper function
-fn restore_ip_addresses_helper(substring: &str, state: &mut Vec<u8>, output: &Vec<String>) {
+fn restore_ip_addresses_helper(substring: &str, state: &mut Vec<u8>, octet: u8,  output: &Vec<String>) {
 
     // Base case
     if substring.len() == 0 {
@@ -23,7 +23,7 @@ fn restore_ip_addresses(input: &str) -> Vec<String> {
         return output; // Empty vector
     }
 
-    restore_ip_addresses_helper(input, &mut vec![], &mut output);
+    restore_ip_addresses_helper(input, &mut vec![], 1, &mut output);
 
     output
 
