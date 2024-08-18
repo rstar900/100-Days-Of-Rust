@@ -1,17 +1,40 @@
-use std::io;
+use std::cmp::min;
+use std::io::{self, Write};
 
 // Helper function
-fn restore_ip_addresses_helper(substring: &str, state: &mut Vec<u8>, octet: u8,  output: &Vec<String>) {
+fn restore_ip_addresses_helper(substring: &str, state: &mut Vec<u8>, octet: u8,  output: &mut Vec<String>) {
+
+    use std::fmt::Write; // Imported here as it causes conflict with the Write trait imported for main()
 
     // Base case
-    if substring.len() == 0 {
-        todo!("Probably append the overall string from a state string into a vector");
+    if octet == 5{
+        if substring.is_empty() {
+            // Append the IP address to the output vector with dot notation
+            let mut valid_ip_addr = String::new();
+            write!(valid_ip_addr, "{}.{}.{}.{}", state[0], state[1], state[2], state[3]).expect("Error writing formatted string!");
+            output.push(valid_ip_addr);
+        }
 
     } else if substring.chars().nth(0).expect("Error accessing 0th index of the substring!") == '0' {
-        todo!("No need to combine with other numbers as 0 is separate in IP address");
+        state.push(0);
+        restore_ip_addresses_helper(&substring[1..], state, octet + 1, output);
+        state.pop();
+
+    } else {
+        // We can go forward with a max of 3 digit numbers, depending on a few conditions
+        for i in 0..min(3, substring.len()) {
+            // Only if enough space is left for other octets to form
+            if substring[i+1..].len() >= 4 - octet as usize {
+                // If digits chosen are valid u8 (0 to 255)
+                if let Ok(ip_part) =  substring[0..=i].parse(){
+                    state.push(ip_part);
+                    restore_ip_addresses_helper(&substring[i+1..], state, octet + 1, output);
+                    state.pop();
+                } 
+            }
+        }
     }
 
-    todo!("Implement logic based on the substring passed to it as input");
 }
 
 fn restore_ip_addresses(input: &str) -> Vec<String> {
@@ -30,7 +53,11 @@ fn restore_ip_addresses(input: &str) -> Vec<String> {
 } 
 
 fn main() {
-    println!("Hello, world!");
+    let mut input = String::new();
+    print!("Enter the numeric string: ");
+    io::stdout().flush().expect("Error flushing STDOUT!");
+    io::stdin().read_line(&mut input).expect("Error reading from STDIN!");
+    println!("The possible valid IP addresses are: {:?}", restore_ip_addresses(&input.trim()));
 }
 
 
