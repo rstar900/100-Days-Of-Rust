@@ -59,7 +59,7 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #10       | [Unique Binary Search Tree](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-10_Unique-Binary-Search-Trees)             | :white_check_mark:      |
 | Day #11       | [Restore IP Addresses](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-11_Restore-IP-Addresses)                  | :white_check_mark:      |
 | Day #12       | [Mountains or Valleys](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-12_Mountains_And_Valleys)                  | :white_check_mark:      |
-| Day #13       | [Need Help With Your Packing](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-13_Need-Help-With-Packing)           | :white_large_square:      |
+| Day #13       | [Need Help With Your Packing](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-13_Need-Help-With-Packing)           | :white_check_mark:      |
 | Day #14       | [The Karacas Encryption Algorithm](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-14_Karacas-Encryption-Algorithm)      | :white_large_square:      |
 | Day #15       | [Valid Anagram](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-15_Valid-Anagram)                         | :white_large_square:      |
 | Day #16       | [Nim Game](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-16_Nim-Game)                              | :white_large_square:      |
