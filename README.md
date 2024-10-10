@@ -61,7 +61,7 @@ We encourage you to share your progress and ask questions in the Discussions sec
 | Day #12       | [Mountains or Valleys](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-12_Mountains_And_Valleys)                  | :white_check_mark:      |
 | Day #13       | [Need Help With Your Packing](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-13_Need-Help-With-Packing)           | :white_check_mark:      |
 | Day #14       | [The Karacas Encryption Algorithm](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-02/Day-14_Karacas-Encryption-Algorithm)      | :white_check_mark:      |
-| Day #15       | [Valid Anagram](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-15_Valid-Anagram)                         | :white_large_square:      |
+| Day #15       | [Valid Anagram](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-15_Valid-Anagram)                         | :white_check_mark:      |
 | Day #16       | [Nim Game](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-16_Nim-Game)                              | :white_large_square:      |
 | Day #17       | [Prison Break](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-17_Prison-Break)                          | :white_large_square:      |
 | Day #18       | [Unique Paths](https://github.com/rstar900/100-Days-Of-Rust/tree/main/Week-03/Day-18_Unique-Paths)                          | :white_large_square:      |
